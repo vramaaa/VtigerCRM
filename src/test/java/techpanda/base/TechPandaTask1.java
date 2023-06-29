@@ -16,6 +16,8 @@ public class TechPandaTask1 {
 		WebDriver driver=new ChromeDriver();
 		driver.get("http://live.techpanda.org/");
 		//driver.manage().window().maximize();
+		int a=10; int b=30;
+		System.out.println(a+b);
 		String expectTitle="Home page";
 		String actlTitle=driver.getTitle();
 		if(expectTitle.equals(actlTitle)) {
@@ -70,6 +72,7 @@ public class TechPandaTask1 {
             }    
             return true;    
             }
+//hello world
 		
 		
 		
