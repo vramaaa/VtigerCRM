@@ -20,7 +20,6 @@ public class TechPandaTask1 {
 		System.out.println(a+b);
 		int c=20; int d=80;
 		System.out.println(c+d);
-		System.out.println("abc");
 		String expectTitle="Home page";
 		String actlTitle=driver.getTitle();
 		if(expectTitle.equals(actlTitle)) {
